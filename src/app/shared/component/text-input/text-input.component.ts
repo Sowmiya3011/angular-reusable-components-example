@@ -30,12 +30,12 @@ export class TextInputComponent implements OnInit , ControlValueAccessor {
   }
 
   registerOnChange(fn: any): void {
-    // Store the provided function as an internal method.
+    
     this.onChange = fn;
   }
 
   registerOnTouched(fn: any): void {
-    // Store the provided function as an internal method.
+    
     this.onTouched = fn;
   }
 

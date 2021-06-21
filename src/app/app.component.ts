@@ -26,8 +26,7 @@ export class AppComponent  {
     this.customInputForm = this.fb.group(
       {
         
-        //fullname: ['Bill Gates']  
-      },
+              },
       
     );
   }
