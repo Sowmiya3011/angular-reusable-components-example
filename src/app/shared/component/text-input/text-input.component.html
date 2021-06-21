@@ -1,0 +1,8 @@
+<p>Text Input Component </p>
+
+<label>{{ label }}</label>
+
+<input [type]="type"
+       [value]="value"
+       (input)="onChange()"
+       (blur)="onTouched()" />

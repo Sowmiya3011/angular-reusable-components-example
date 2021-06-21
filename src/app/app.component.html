@@ -1,0 +1,24 @@
+
+<p>
+  REUSABLE ANGULAR COMPONENTS
+</p>
+<my-button (onClick)="functioncall($event)" [label]="label"></my-button>
+<br><br>
+
+
+<form [formGroup]="controlsFormGroup">
+  <div *ngIf="controlsFormGroup">
+    <app-radio [parentFormGroup]="controlsFormGroup"></app-radio>
+  </div>
+  <button (click)="save()">Save</button>
+  <div>{{radioexample.value}}</div>
+</form>
+<br><br>
+
+<form [formGroup]="customInputForm">
+  
+  <app-text-input label="User Name" 
+                type="text">
+  </app-text-input>
+  
+</form>
